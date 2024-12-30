@@ -1,0 +1,18 @@
+body {
+    background-color:red;
+}
+
+.big-title{
+    font-family: cursive;
+    color: yellow;
+    font-size: 10rem;
+}
+
+.margin-50{
+    margin: 50px;
+    color: blue;
+}
+
+.Woorld{
+   text-decoration: none;
+}
