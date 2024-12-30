@@ -97,8 +97,31 @@ We will lean how to add event listener
     append:
       $("h1").append("<button>New</button>")
 
+We can also do animation using jQuery 
+ 
+    $("button").on("click", function(){
+    $("h1").hide();                     --- we can use hide() to hide the object using jQuery
+    });
 
+   $("button").on("click", function(){
+    $("h1").show();                --- we use this to show the hidden object using jQuery
+   });
 
+   $("button").on("click",function(){
+    $("h1").toggle();    --- We can use the toggle function to hide and show object by clicking the button
+   });
+
+   $("button").on("click",function(){
+    $("h1").fadeToggle();             ---It is use to toggle between fadeIn & fadeOut 
+   });
+
+   $("button").on("click", function(){
+    $("h1").slideToggle();     --- It is use to toggle between slideUp & slideDown 
+   });
+   
+   $("button").on("click", function(){
+     $("h1").slideUp().slideDown().animate({margin: "20%"}).animate({opacity: 0.5}).animate("color","yellow");
+   });
 
 
 */
@@ -120,3 +143,10 @@ $("h1").before(`<button>New</button>`);
 $("h1").after(`<button>New</button>`);
 $("h1").prepend('<button>New</button>');
 $("h1").append("<button>New</button>");
+
+
+
+
+$("button").on("click", function(){
+    $("h1").slideUp().slideDown().animate({margin: "10%" }).animate({opacity: 0.5}).css("color","purple");
+  });
