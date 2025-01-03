@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/The Simon Game/index.html"
+    "livePreview.defaultPreviewPath": "/The Simon Game/index.html",
+    "git.ignoreLimitWarning": true
 }
